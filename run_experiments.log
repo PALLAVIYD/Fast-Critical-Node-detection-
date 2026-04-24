@@ -1,0 +1,714 @@
+2026-04-15 14:10:49,348 | INFO     | __main__ | Loading dataset: ba {'n': 5000, 'm': 3}
+2026-04-15 14:10:49,348 | INFO     | cndp.graph | Generating BA graph: n=5000, m=3
+2026-04-15 14:13:05,939 | INFO     | __main__ | Loading dataset: ba {'n': 10000, 'm': 3}
+2026-04-15 14:13:05,939 | INFO     | cndp.graph | Generating BA graph: n=10000, m=3
+2026-04-15 15:14:39,519 | INFO     | __main__ | Loading dataset: ba {'n': 10000, 'm': 3}
+2026-04-15 15:14:39,519 | INFO     | cndp.graph | Generating BA graph: n=10000, m=3
+2026-04-15 15:14:39,556 | INFO     | cndp.graph | BA graph built in 0.04s — 10000 nodes, 29991 edges
+2026-04-15 15:14:39,556 | INFO     | __main__ | Graph: 10000 nodes, 29991 edges
+2026-04-15 15:14:39,556 | INFO     | __main__ | Pre-computing centralities …
+2026-04-15 15:14:39,556 | INFO     | cndp.centrality | Computing degree centrality …
+2026-04-15 15:14:39,557 | INFO     | cndp.centrality | Computing approx betweenness (k=200) …
+2026-04-15 15:14:41,870 | INFO     | cndp.centrality | Computing k-core score …
+2026-04-15 15:14:41,880 | INFO     | cndp.centrality | Computing connectivity impact …
+2026-04-15 15:14:41,966 | INFO     | __main__ | === Run 1/5 ===
+2026-04-15 15:14:41,966 | INFO     | __main__ |   Method: lazy_greedy
+2026-04-15 15:14:42,014 | INFO     | cndp.scoring | Composite score computed for 10000 nodes.
+2026-04-15 15:14:42,391 | INFO     | cndp.greedy | Lazy greedy done. 20 nodes removed, 20 marginal-gain recomputations.
+2026-04-15 15:14:42,401 | INFO     | __main__ |     f_reduction=0.44%  lcc_reduction=0.22%  R=0.0020  time=0.43s
+2026-04-15 15:14:42,401 | INFO     | __main__ |   Method: degree
+2026-04-15 15:14:42,715 | INFO     | __main__ |     f_reduction=0.46%  lcc_reduction=0.23%  R=0.0020  time=0.31s
+2026-04-15 15:14:42,715 | INFO     | __main__ |   Method: betweenness
+2026-04-15 15:14:42,987 | INFO     | __main__ |     f_reduction=0.42%  lcc_reduction=0.21%  R=0.0020  time=0.27s
+2026-04-15 15:14:42,987 | INFO     | __main__ |   Method: random
+2026-04-15 15:14:43,262 | INFO     | __main__ |     f_reduction=0.40%  lcc_reduction=0.20%  R=0.0020  time=0.27s
+2026-04-15 15:14:43,262 | INFO     | __main__ | === Run 2/5 ===
+2026-04-15 15:14:43,262 | INFO     | __main__ |   Method: lazy_greedy
+2026-04-15 15:14:43,285 | INFO     | cndp.scoring | Composite score computed for 10000 nodes.
+2026-04-15 15:14:43,684 | INFO     | cndp.greedy | Lazy greedy done. 20 nodes removed, 20 marginal-gain recomputations.
+2026-04-15 15:14:43,694 | INFO     | __main__ |     f_reduction=0.44%  lcc_reduction=0.22%  R=0.0020  time=0.42s
+2026-04-15 15:14:43,694 | INFO     | __main__ |   Method: degree
+2026-04-15 15:14:44,022 | INFO     | __main__ |     f_reduction=0.46%  lcc_reduction=0.23%  R=0.0020  time=0.32s
+2026-04-15 15:14:44,022 | INFO     | __main__ |   Method: betweenness
+2026-04-15 15:14:44,296 | INFO     | __main__ |     f_reduction=0.42%  lcc_reduction=0.21%  R=0.0020  time=0.27s
+2026-04-15 15:14:44,296 | INFO     | __main__ |   Method: random
+2026-04-15 15:14:44,579 | INFO     | __main__ |     f_reduction=0.40%  lcc_reduction=0.20%  R=0.0020  time=0.28s
+2026-04-15 15:14:44,579 | INFO     | __main__ | === Run 3/5 ===
+2026-04-15 15:14:44,579 | INFO     | __main__ |   Method: lazy_greedy
+2026-04-15 15:14:44,603 | INFO     | cndp.scoring | Composite score computed for 10000 nodes.
+2026-04-15 15:14:45,007 | INFO     | cndp.greedy | Lazy greedy done. 20 nodes removed, 20 marginal-gain recomputations.
+2026-04-15 15:14:45,017 | INFO     | __main__ |     f_reduction=0.44%  lcc_reduction=0.22%  R=0.0020  time=0.43s
+2026-04-15 15:14:45,017 | INFO     | __main__ |   Method: degree
+2026-04-15 15:14:45,348 | INFO     | __main__ |     f_reduction=0.46%  lcc_reduction=0.23%  R=0.0020  time=0.32s
+2026-04-15 15:14:45,348 | INFO     | __main__ |   Method: betweenness
+2026-04-15 15:14:45,625 | INFO     | __main__ |     f_reduction=0.42%  lcc_reduction=0.21%  R=0.0020  time=0.27s
+2026-04-15 15:14:45,626 | INFO     | __main__ |   Method: random
+2026-04-15 15:14:45,904 | INFO     | __main__ |     f_reduction=0.40%  lcc_reduction=0.20%  R=0.0020  time=0.27s
+2026-04-15 15:14:45,904 | INFO     | __main__ | === Run 4/5 ===
+2026-04-15 15:14:45,904 | INFO     | __main__ |   Method: lazy_greedy
+2026-04-15 15:14:45,928 | INFO     | cndp.scoring | Composite score computed for 10000 nodes.
+2026-04-15 15:14:46,334 | INFO     | cndp.greedy | Lazy greedy done. 20 nodes removed, 20 marginal-gain recomputations.
+2026-04-15 15:14:46,352 | INFO     | __main__ |     f_reduction=0.44%  lcc_reduction=0.22%  R=0.0020  time=0.43s
+2026-04-15 15:14:46,352 | INFO     | __main__ |   Method: degree
+2026-04-15 15:14:46,704 | INFO     | __main__ |     f_reduction=0.46%  lcc_reduction=0.23%  R=0.0020  time=0.34s
+2026-04-15 15:14:46,704 | INFO     | __main__ |   Method: betweenness
+2026-04-15 15:14:46,984 | INFO     | __main__ |     f_reduction=0.42%  lcc_reduction=0.21%  R=0.0020  time=0.27s
+2026-04-15 15:14:46,984 | INFO     | __main__ |   Method: random
+2026-04-15 15:14:47,266 | INFO     | __main__ |     f_reduction=0.40%  lcc_reduction=0.20%  R=0.0020  time=0.28s
+2026-04-15 15:14:47,267 | INFO     | __main__ | === Run 5/5 ===
+2026-04-15 15:14:47,267 | INFO     | __main__ |   Method: lazy_greedy
+2026-04-15 15:14:47,291 | INFO     | cndp.scoring | Composite score computed for 10000 nodes.
+2026-04-15 15:14:47,705 | INFO     | cndp.greedy | Lazy greedy done. 20 nodes removed, 20 marginal-gain recomputations.
+2026-04-15 15:14:47,715 | INFO     | __main__ |     f_reduction=0.44%  lcc_reduction=0.22%  R=0.0020  time=0.44s
+2026-04-15 15:14:47,715 | INFO     | __main__ |   Method: degree
+2026-04-15 15:14:48,049 | INFO     | __main__ |     f_reduction=0.46%  lcc_reduction=0.23%  R=0.0020  time=0.33s
+2026-04-15 15:14:48,049 | INFO     | __main__ |   Method: betweenness
+2026-04-15 15:14:48,328 | INFO     | __main__ |     f_reduction=0.42%  lcc_reduction=0.21%  R=0.0020  time=0.27s
+2026-04-15 15:14:48,328 | INFO     | __main__ |   Method: random
+2026-04-15 15:14:48,604 | INFO     | __main__ |     f_reduction=0.40%  lcc_reduction=0.20%  R=0.0020  time=0.27s
+2026-04-15 15:14:48,606 | INFO     | __main__ | Results saved → /Users/abdurrahumanj/Developer/College/adv_graph/experiments/../results/logs/ba_n10000_k20_results.json
+2026-04-15 15:14:50,135 | INFO     | __main__ | Plot saved → /Users/abdurrahumanj/Developer/College/adv_graph/experiments/../results/plots/ba_n10000_k20_connectivity.png
+2026-04-15 15:14:50,216 | INFO     | __main__ | Plot saved → /Users/abdurrahumanj/Developer/College/adv_graph/experiments/../results/plots/ba_n10000_k20_lcc.png
+2026-04-15 15:15:05,056 | INFO     | __main__ | Loading dataset: facebook {}
+2026-04-15 15:15:05,056 | INFO     | datasets.loader | Downloading Facebook dataset → /Users/abdurrahumanj/Developer/College/adv_graph/experiments/../datasets/../data/facebook_combined.txt.gz
+2026-04-15 15:15:11,902 | INFO     | datasets.loader | Loaded 4039 nodes, 88234 edges from /Users/abdurrahumanj/Developer/College/adv_graph/experiments/../datasets/../data/facebook_combined.txt.gz
+2026-04-15 15:15:11,902 | INFO     | __main__ | Graph: 4039 nodes, 88234 edges
+2026-04-15 15:15:11,902 | INFO     | __main__ | Pre-computing centralities …
+2026-04-15 15:15:11,902 | INFO     | cndp.centrality | Computing degree centrality …
+2026-04-15 15:15:11,903 | INFO     | cndp.centrality | Computing approx betweenness (k=200) …
+2026-04-15 15:15:14,783 | INFO     | cndp.centrality | Computing k-core score …
+2026-04-15 15:15:14,806 | INFO     | cndp.centrality | Computing connectivity impact …
+2026-04-15 15:15:15,642 | INFO     | __main__ | === Run 1/5 ===
+2026-04-15 15:15:15,642 | INFO     | __main__ |   Method: lazy_greedy
+2026-04-15 15:15:15,653 | INFO     | cndp.scoring | Composite score computed for 4039 nodes.
+2026-04-15 15:15:16,115 | INFO     | cndp.greedy | Lazy greedy done. 20 nodes removed, 20 marginal-gain recomputations.
+2026-04-15 15:15:16,132 | INFO     | __main__ |     f_reduction=3.39%  lcc_reduction=1.71%  R=0.0049  time=0.48s
+2026-04-15 15:15:16,132 | INFO     | __main__ |   Method: degree
+2026-04-15 15:15:16,471 | INFO     | __main__ |     f_reduction=4.65%  lcc_reduction=2.35%  R=0.0049  time=0.33s
+2026-04-15 15:15:16,471 | INFO     | __main__ |   Method: betweenness
+2026-04-15 15:15:16,792 | INFO     | __main__ |     f_reduction=59.44%  lcc_reduction=40.65%  R=0.0042  time=0.31s
+2026-04-15 15:15:16,792 | INFO     | __main__ |   Method: random
+2026-04-15 15:15:17,110 | INFO     | __main__ |     f_reduction=0.99%  lcc_reduction=0.50%  R=0.0049  time=0.30s
+2026-04-15 15:15:17,110 | INFO     | __main__ | === Run 2/5 ===
+2026-04-15 15:15:17,110 | INFO     | __main__ |   Method: lazy_greedy
+2026-04-15 15:15:17,121 | INFO     | cndp.scoring | Composite score computed for 4039 nodes.
+2026-04-15 15:15:17,556 | INFO     | cndp.greedy | Lazy greedy done. 20 nodes removed, 20 marginal-gain recomputations.
+2026-04-15 15:15:17,573 | INFO     | __main__ |     f_reduction=3.39%  lcc_reduction=1.71%  R=0.0049  time=0.45s
+2026-04-15 15:15:17,573 | INFO     | __main__ |   Method: degree
+2026-04-15 15:15:17,917 | INFO     | __main__ |     f_reduction=4.65%  lcc_reduction=2.35%  R=0.0049  time=0.33s
+2026-04-15 15:15:17,917 | INFO     | __main__ |   Method: betweenness
+2026-04-15 15:15:18,240 | INFO     | __main__ |     f_reduction=59.44%  lcc_reduction=40.65%  R=0.0042  time=0.31s
+2026-04-15 15:15:18,240 | INFO     | __main__ |   Method: random
+2026-04-15 15:15:18,556 | INFO     | __main__ |     f_reduction=0.99%  lcc_reduction=0.50%  R=0.0049  time=0.30s
+2026-04-15 15:15:18,557 | INFO     | __main__ | === Run 3/5 ===
+2026-04-15 15:15:18,557 | INFO     | __main__ |   Method: lazy_greedy
+2026-04-15 15:15:18,567 | INFO     | cndp.scoring | Composite score computed for 4039 nodes.
+2026-04-15 15:15:19,064 | INFO     | cndp.greedy | Lazy greedy done. 20 nodes removed, 20 marginal-gain recomputations.
+2026-04-15 15:15:19,082 | INFO     | __main__ |     f_reduction=3.39%  lcc_reduction=1.71%  R=0.0049  time=0.51s
+2026-04-15 15:15:19,082 | INFO     | __main__ |   Method: degree
+2026-04-15 15:15:19,451 | INFO     | __main__ |     f_reduction=4.65%  lcc_reduction=2.35%  R=0.0049  time=0.36s
+2026-04-15 15:15:19,451 | INFO     | __main__ |   Method: betweenness
+2026-04-15 15:15:19,774 | INFO     | __main__ |     f_reduction=59.44%  lcc_reduction=40.65%  R=0.0042  time=0.31s
+2026-04-15 15:15:19,774 | INFO     | __main__ |   Method: random
+2026-04-15 15:15:20,087 | INFO     | __main__ |     f_reduction=0.99%  lcc_reduction=0.50%  R=0.0049  time=0.30s
+2026-04-15 15:15:20,087 | INFO     | __main__ | === Run 4/5 ===
+2026-04-15 15:15:20,087 | INFO     | __main__ |   Method: lazy_greedy
+2026-04-15 15:15:20,097 | INFO     | cndp.scoring | Composite score computed for 4039 nodes.
+2026-04-15 15:15:20,601 | INFO     | cndp.greedy | Lazy greedy done. 20 nodes removed, 20 marginal-gain recomputations.
+2026-04-15 15:15:20,618 | INFO     | __main__ |     f_reduction=3.39%  lcc_reduction=1.71%  R=0.0049  time=0.52s
+2026-04-15 15:15:20,618 | INFO     | __main__ |   Method: degree
+2026-04-15 15:15:20,965 | INFO     | __main__ |     f_reduction=4.65%  lcc_reduction=2.35%  R=0.0049  time=0.33s
+2026-04-15 15:15:20,965 | INFO     | __main__ |   Method: betweenness
+2026-04-15 15:15:21,285 | INFO     | __main__ |     f_reduction=59.44%  lcc_reduction=40.65%  R=0.0042  time=0.31s
+2026-04-15 15:15:21,285 | INFO     | __main__ |   Method: random
+2026-04-15 15:15:21,605 | INFO     | __main__ |     f_reduction=0.99%  lcc_reduction=0.50%  R=0.0049  time=0.31s
+2026-04-15 15:15:21,605 | INFO     | __main__ | === Run 5/5 ===
+2026-04-15 15:15:21,605 | INFO     | __main__ |   Method: lazy_greedy
+2026-04-15 15:15:21,616 | INFO     | cndp.scoring | Composite score computed for 4039 nodes.
+2026-04-15 15:15:22,076 | INFO     | cndp.greedy | Lazy greedy done. 20 nodes removed, 20 marginal-gain recomputations.
+2026-04-15 15:15:22,093 | INFO     | __main__ |     f_reduction=3.39%  lcc_reduction=1.71%  R=0.0049  time=0.48s
+2026-04-15 15:15:22,093 | INFO     | __main__ |   Method: degree
+2026-04-15 15:15:22,433 | INFO     | __main__ |     f_reduction=4.65%  lcc_reduction=2.35%  R=0.0049  time=0.33s
+2026-04-15 15:15:22,433 | INFO     | __main__ |   Method: betweenness
+2026-04-15 15:15:22,755 | INFO     | __main__ |     f_reduction=59.44%  lcc_reduction=40.65%  R=0.0042  time=0.31s
+2026-04-15 15:15:22,755 | INFO     | __main__ |   Method: random
+2026-04-15 15:15:23,070 | INFO     | __main__ |     f_reduction=0.99%  lcc_reduction=0.50%  R=0.0049  time=0.30s
+2026-04-15 15:15:23,071 | INFO     | __main__ | Results saved → /Users/abdurrahumanj/Developer/College/adv_graph/experiments/../results/logs/facebook_n4039_k20_results.json
+2026-04-15 15:15:23,170 | INFO     | __main__ | Plot saved → /Users/abdurrahumanj/Developer/College/adv_graph/experiments/../results/plots/facebook_n4039_k20_connectivity.png
+2026-04-15 15:15:23,250 | INFO     | __main__ | Plot saved → /Users/abdurrahumanj/Developer/College/adv_graph/experiments/../results/plots/facebook_n4039_k20_lcc.png
+2026-04-15 22:33:24,397 | INFO     | __main__ | Loading dataset: ba {'n': 5000, 'm': 3}
+2026-04-15 22:33:24,397 | INFO     | cndp.graph | Generating BA graph: n=5000, m=3
+2026-04-15 22:33:24,416 | INFO     | cndp.graph | BA graph built in 0.02s — 5000 nodes, 14991 edges
+2026-04-15 22:33:24,416 | INFO     | __main__ | Graph: 5000 nodes, 14991 edges
+2026-04-15 22:33:24,416 | INFO     | __main__ | === Run 1/5 ===
+2026-04-15 22:33:24,416 | INFO     | __main__ |   Computing centralities …
+2026-04-15 22:33:24,416 | INFO     | cndp.centrality | Computing degree centrality …
+2026-04-15 22:33:24,416 | INFO     | cndp.centrality | Computing approx betweenness (k=200) …
+2026-04-15 22:33:25,546 | INFO     | cndp.centrality | Computing k-core score …
+2026-04-15 22:33:25,551 | INFO     | cndp.centrality | Computing connectivity impact …
+2026-04-15 22:33:25,558 | INFO     | __main__ |   Method: lazy_greedy
+2026-04-15 22:33:25,573 | INFO     | cndp.scoring | Entropy weights calculated: deg=0.272, bet=0.456, kcore=0.000, ci=0.272
+2026-04-15 22:33:25,590 | INFO     | cndp.scoring | Composite score computed for 5000 nodes.
+2026-04-15 22:33:34,047 | INFO     | cndp.greedy | Lazy Greedy (CELF) Optimisation Complete.
+  Theoretical Submodular Bounds: ≥ 63.2% (1-1/e) of Optimal Target
+  Nodes Removed: 10
+  Marginal-gain Recomputations Executed: 456
+  Naive Recalculations Skipped: 4499 (Computational Savings: 90.8%)
+2026-04-15 22:33:34,052 | INFO     | __main__ |     f_reduction=0.40%  lcc_reduction=0.20%  R=0.0020  time=8.49s
+2026-04-15 22:33:34,052 | INFO     | __main__ |   Method: lazy_greedy_no_bet
+2026-04-15 22:33:34,065 | INFO     | cndp.scoring | Composite score computed for 5000 nodes.
+2026-04-15 22:33:41,901 | INFO     | cndp.greedy | Lazy Greedy (CELF) Optimisation Complete.
+  Theoretical Submodular Bounds: ≥ 63.2% (1-1/e) of Optimal Target
+  Nodes Removed: 10
+  Marginal-gain Recomputations Executed: 456
+  Naive Recalculations Skipped: 4499 (Computational Savings: 90.8%)
+2026-04-15 22:33:41,905 | INFO     | __main__ |     f_reduction=0.40%  lcc_reduction=0.20%  R=0.0020  time=7.85s
+2026-04-15 22:33:41,905 | INFO     | __main__ |   Method: lazy_greedy_no_ci
+2026-04-15 22:33:41,917 | INFO     | cndp.scoring | Composite score computed for 5000 nodes.
+2026-04-15 22:33:49,756 | INFO     | cndp.greedy | Lazy Greedy (CELF) Optimisation Complete.
+  Theoretical Submodular Bounds: ≥ 63.2% (1-1/e) of Optimal Target
+  Nodes Removed: 10
+  Marginal-gain Recomputations Executed: 456
+  Naive Recalculations Skipped: 4499 (Computational Savings: 90.8%)
+2026-04-15 22:33:49,760 | INFO     | __main__ |     f_reduction=0.40%  lcc_reduction=0.20%  R=0.0020  time=7.85s
+2026-04-15 22:33:49,760 | INFO     | __main__ |   Method: degree
+2026-04-15 22:33:49,961 | INFO     | __main__ |     f_reduction=0.44%  lcc_reduction=0.22%  R=0.0020  time=0.20s
+2026-04-15 22:33:49,961 | INFO     | __main__ |   Method: adaptive_degree
+2026-04-15 22:33:50,173 | INFO     | __main__ |     f_reduction=0.44%  lcc_reduction=0.22%  R=0.0020  time=0.21s
+2026-04-15 22:33:50,173 | INFO     | __main__ |   Method: betweenness
+2026-04-15 22:33:50,390 | INFO     | __main__ |     f_reduction=0.44%  lcc_reduction=0.22%  R=0.0020  time=0.21s
+2026-04-15 22:33:50,390 | INFO     | __main__ |   Method: adaptive_betweenness
+2026-04-15 22:34:40,686 | INFO     | __main__ |     f_reduction=0.44%  lcc_reduction=0.22%  R=0.0020  time=50.29s
+2026-04-15 22:34:40,687 | INFO     | __main__ |   Method: random
+2026-04-15 22:34:40,891 | INFO     | __main__ |     f_reduction=0.40%  lcc_reduction=0.20%  R=0.0020  time=0.20s
+2026-04-15 22:34:40,891 | INFO     | __main__ | === Run 2/5 ===
+2026-04-15 22:34:40,891 | INFO     | __main__ |   Computing centralities …
+2026-04-15 22:34:40,891 | INFO     | cndp.centrality | Computing degree centrality …
+2026-04-15 22:34:40,891 | INFO     | cndp.centrality | Computing approx betweenness (k=200) …
+2026-04-15 22:34:42,028 | INFO     | cndp.centrality | Computing k-core score …
+2026-04-15 22:34:42,033 | INFO     | cndp.centrality | Computing connectivity impact …
+2026-04-15 22:34:42,040 | INFO     | __main__ |   Method: lazy_greedy
+2026-04-15 22:34:42,053 | INFO     | cndp.scoring | Entropy weights calculated: deg=0.270, bet=0.459, kcore=0.000, ci=0.270
+2026-04-15 22:34:42,064 | INFO     | cndp.scoring | Composite score computed for 5000 nodes.
+2026-04-15 22:34:50,481 | INFO     | cndp.greedy | Lazy Greedy (CELF) Optimisation Complete.
+  Theoretical Submodular Bounds: ≥ 63.2% (1-1/e) of Optimal Target
+  Nodes Removed: 10
+  Marginal-gain Recomputations Executed: 456
+  Naive Recalculations Skipped: 4499 (Computational Savings: 90.8%)
+2026-04-15 22:34:50,486 | INFO     | __main__ |     f_reduction=0.40%  lcc_reduction=0.20%  R=0.0020  time=8.44s
+2026-04-15 22:34:50,486 | INFO     | __main__ |   Method: lazy_greedy_no_bet
+2026-04-15 22:34:50,497 | INFO     | cndp.scoring | Composite score computed for 5000 nodes.
+2026-04-15 22:34:58,391 | INFO     | cndp.greedy | Lazy Greedy (CELF) Optimisation Complete.
+  Theoretical Submodular Bounds: ≥ 63.2% (1-1/e) of Optimal Target
+  Nodes Removed: 10
+  Marginal-gain Recomputations Executed: 456
+  Naive Recalculations Skipped: 4499 (Computational Savings: 90.8%)
+2026-04-15 22:34:58,396 | INFO     | __main__ |     f_reduction=0.40%  lcc_reduction=0.20%  R=0.0020  time=7.91s
+2026-04-15 22:34:58,396 | INFO     | __main__ |   Method: lazy_greedy_no_ci
+2026-04-15 22:34:58,408 | INFO     | cndp.scoring | Composite score computed for 5000 nodes.
+2026-04-15 22:35:06,492 | INFO     | cndp.greedy | Lazy Greedy (CELF) Optimisation Complete.
+  Theoretical Submodular Bounds: ≥ 63.2% (1-1/e) of Optimal Target
+  Nodes Removed: 10
+  Marginal-gain Recomputations Executed: 456
+  Naive Recalculations Skipped: 4499 (Computational Savings: 90.8%)
+2026-04-15 22:35:06,499 | INFO     | __main__ |     f_reduction=0.40%  lcc_reduction=0.20%  R=0.0020  time=8.10s
+2026-04-15 22:35:06,499 | INFO     | __main__ |   Method: degree
+2026-04-15 22:35:06,702 | INFO     | __main__ |     f_reduction=0.44%  lcc_reduction=0.22%  R=0.0020  time=0.20s
+2026-04-15 22:35:06,702 | INFO     | __main__ |   Method: adaptive_degree
+2026-04-15 22:35:06,996 | INFO     | __main__ |     f_reduction=0.44%  lcc_reduction=0.22%  R=0.0020  time=0.29s
+2026-04-15 22:35:06,996 | INFO     | __main__ |   Method: betweenness
+2026-04-15 22:35:07,232 | INFO     | __main__ |     f_reduction=0.44%  lcc_reduction=0.22%  R=0.0020  time=0.23s
+2026-04-15 22:35:07,232 | INFO     | __main__ |   Method: adaptive_betweenness
+2026-04-15 22:35:57,087 | INFO     | __main__ |     f_reduction=0.44%  lcc_reduction=0.22%  R=0.0020  time=49.85s
+2026-04-15 22:35:57,087 | INFO     | __main__ |   Method: random
+2026-04-15 22:35:57,294 | INFO     | __main__ |     f_reduction=0.40%  lcc_reduction=0.20%  R=0.0020  time=0.20s
+2026-04-15 22:35:57,294 | INFO     | __main__ | === Run 3/5 ===
+2026-04-15 22:35:57,294 | INFO     | __main__ |   Computing centralities …
+2026-04-15 22:35:57,294 | INFO     | cndp.centrality | Computing degree centrality …
+2026-04-15 22:35:57,295 | INFO     | cndp.centrality | Computing approx betweenness (k=200) …
+2026-04-15 22:35:58,424 | INFO     | cndp.centrality | Computing k-core score …
+2026-04-15 22:35:58,429 | INFO     | cndp.centrality | Computing connectivity impact …
+2026-04-15 22:35:58,436 | INFO     | __main__ |   Method: lazy_greedy
+2026-04-15 22:35:58,449 | INFO     | cndp.scoring | Entropy weights calculated: deg=0.270, bet=0.460, kcore=0.000, ci=0.270
+2026-04-15 22:35:58,462 | INFO     | cndp.scoring | Composite score computed for 5000 nodes.
+2026-04-15 22:36:06,875 | INFO     | cndp.greedy | Lazy Greedy (CELF) Optimisation Complete.
+  Theoretical Submodular Bounds: ≥ 63.2% (1-1/e) of Optimal Target
+  Nodes Removed: 10
+  Marginal-gain Recomputations Executed: 456
+  Naive Recalculations Skipped: 4499 (Computational Savings: 90.8%)
+2026-04-15 22:36:06,879 | INFO     | __main__ |     f_reduction=0.40%  lcc_reduction=0.20%  R=0.0020  time=8.44s
+2026-04-15 22:36:06,879 | INFO     | __main__ |   Method: lazy_greedy_no_bet
+2026-04-15 22:36:06,892 | INFO     | cndp.scoring | Composite score computed for 5000 nodes.
+2026-04-15 22:36:14,929 | INFO     | cndp.greedy | Lazy Greedy (CELF) Optimisation Complete.
+  Theoretical Submodular Bounds: ≥ 63.2% (1-1/e) of Optimal Target
+  Nodes Removed: 10
+  Marginal-gain Recomputations Executed: 456
+  Naive Recalculations Skipped: 4499 (Computational Savings: 90.8%)
+2026-04-15 22:36:14,934 | INFO     | __main__ |     f_reduction=0.40%  lcc_reduction=0.20%  R=0.0020  time=8.05s
+2026-04-15 22:36:14,934 | INFO     | __main__ |   Method: lazy_greedy_no_ci
+2026-04-15 22:36:14,948 | INFO     | cndp.scoring | Composite score computed for 5000 nodes.
+2026-04-15 22:36:22,848 | INFO     | cndp.greedy | Lazy Greedy (CELF) Optimisation Complete.
+  Theoretical Submodular Bounds: ≥ 63.2% (1-1/e) of Optimal Target
+  Nodes Removed: 10
+  Marginal-gain Recomputations Executed: 456
+  Naive Recalculations Skipped: 4499 (Computational Savings: 90.8%)
+2026-04-15 22:36:22,852 | INFO     | __main__ |     f_reduction=0.40%  lcc_reduction=0.20%  R=0.0020  time=7.91s
+2026-04-15 22:36:22,852 | INFO     | __main__ |   Method: degree
+2026-04-15 22:36:23,056 | INFO     | __main__ |     f_reduction=0.44%  lcc_reduction=0.22%  R=0.0020  time=0.20s
+2026-04-15 22:36:23,056 | INFO     | __main__ |   Method: adaptive_degree
+2026-04-15 22:36:23,268 | INFO     | __main__ |     f_reduction=0.44%  lcc_reduction=0.22%  R=0.0020  time=0.21s
+2026-04-15 22:36:23,268 | INFO     | __main__ |   Method: betweenness
+2026-04-15 22:36:23,487 | INFO     | __main__ |     f_reduction=0.44%  lcc_reduction=0.22%  R=0.0020  time=0.22s
+2026-04-15 22:36:23,487 | INFO     | __main__ |   Method: adaptive_betweenness
+2026-04-15 22:37:14,559 | INFO     | __main__ |     f_reduction=0.44%  lcc_reduction=0.22%  R=0.0020  time=51.07s
+2026-04-15 22:37:14,562 | INFO     | __main__ |   Method: random
+2026-04-15 22:37:14,769 | INFO     | __main__ |     f_reduction=0.40%  lcc_reduction=0.20%  R=0.0020  time=0.20s
+2026-04-15 22:37:14,769 | INFO     | __main__ | === Run 4/5 ===
+2026-04-15 22:37:14,769 | INFO     | __main__ |   Computing centralities …
+2026-04-15 22:37:14,769 | INFO     | cndp.centrality | Computing degree centrality …
+2026-04-15 22:37:14,770 | INFO     | cndp.centrality | Computing approx betweenness (k=200) …
+2026-04-15 22:37:15,919 | INFO     | cndp.centrality | Computing k-core score …
+2026-04-15 22:37:15,924 | INFO     | cndp.centrality | Computing connectivity impact …
+2026-04-15 22:37:15,931 | INFO     | __main__ |   Method: lazy_greedy
+2026-04-15 22:37:15,943 | INFO     | cndp.scoring | Entropy weights calculated: deg=0.271, bet=0.457, kcore=0.000, ci=0.271
+2026-04-15 22:37:15,955 | INFO     | cndp.scoring | Composite score computed for 5000 nodes.
+2026-04-15 22:37:24,430 | INFO     | cndp.greedy | Lazy Greedy (CELF) Optimisation Complete.
+  Theoretical Submodular Bounds: ≥ 63.2% (1-1/e) of Optimal Target
+  Nodes Removed: 10
+  Marginal-gain Recomputations Executed: 456
+  Naive Recalculations Skipped: 4499 (Computational Savings: 90.8%)
+2026-04-15 22:37:24,435 | INFO     | __main__ |     f_reduction=0.40%  lcc_reduction=0.20%  R=0.0020  time=8.50s
+2026-04-15 22:37:24,435 | INFO     | __main__ |   Method: lazy_greedy_no_bet
+2026-04-15 22:37:24,447 | INFO     | cndp.scoring | Composite score computed for 5000 nodes.
+2026-04-15 22:37:32,311 | INFO     | cndp.greedy | Lazy Greedy (CELF) Optimisation Complete.
+  Theoretical Submodular Bounds: ≥ 63.2% (1-1/e) of Optimal Target
+  Nodes Removed: 10
+  Marginal-gain Recomputations Executed: 456
+  Naive Recalculations Skipped: 4499 (Computational Savings: 90.8%)
+2026-04-15 22:37:32,316 | INFO     | __main__ |     f_reduction=0.40%  lcc_reduction=0.20%  R=0.0020  time=7.88s
+2026-04-15 22:37:32,316 | INFO     | __main__ |   Method: lazy_greedy_no_ci
+2026-04-15 22:37:32,328 | INFO     | cndp.scoring | Composite score computed for 5000 nodes.
+2026-04-15 22:37:40,185 | INFO     | cndp.greedy | Lazy Greedy (CELF) Optimisation Complete.
+  Theoretical Submodular Bounds: ≥ 63.2% (1-1/e) of Optimal Target
+  Nodes Removed: 10
+  Marginal-gain Recomputations Executed: 456
+  Naive Recalculations Skipped: 4499 (Computational Savings: 90.8%)
+2026-04-15 22:37:40,190 | INFO     | __main__ |     f_reduction=0.40%  lcc_reduction=0.20%  R=0.0020  time=7.87s
+2026-04-15 22:37:40,190 | INFO     | __main__ |   Method: degree
+2026-04-15 22:37:40,388 | INFO     | __main__ |     f_reduction=0.44%  lcc_reduction=0.22%  R=0.0020  time=0.19s
+2026-04-15 22:37:40,388 | INFO     | __main__ |   Method: adaptive_degree
+2026-04-15 22:37:40,598 | INFO     | __main__ |     f_reduction=0.44%  lcc_reduction=0.22%  R=0.0020  time=0.21s
+2026-04-15 22:37:40,598 | INFO     | __main__ |   Method: betweenness
+2026-04-15 22:37:40,815 | INFO     | __main__ |     f_reduction=0.44%  lcc_reduction=0.22%  R=0.0020  time=0.21s
+2026-04-15 22:37:40,815 | INFO     | __main__ |   Method: adaptive_betweenness
+2026-04-15 22:38:31,066 | INFO     | __main__ |     f_reduction=0.44%  lcc_reduction=0.22%  R=0.0020  time=50.25s
+2026-04-15 22:38:31,068 | INFO     | __main__ |   Method: random
+2026-04-15 22:38:31,268 | INFO     | __main__ |     f_reduction=0.40%  lcc_reduction=0.20%  R=0.0020  time=0.20s
+2026-04-15 22:38:31,268 | INFO     | __main__ | === Run 5/5 ===
+2026-04-15 22:38:31,268 | INFO     | __main__ |   Computing centralities …
+2026-04-15 22:38:31,269 | INFO     | cndp.centrality | Computing degree centrality …
+2026-04-15 22:38:31,269 | INFO     | cndp.centrality | Computing approx betweenness (k=200) …
+2026-04-15 22:38:32,401 | INFO     | cndp.centrality | Computing k-core score …
+2026-04-15 22:38:32,406 | INFO     | cndp.centrality | Computing connectivity impact …
+2026-04-15 22:38:32,413 | INFO     | __main__ |   Method: lazy_greedy
+2026-04-15 22:38:32,425 | INFO     | cndp.scoring | Entropy weights calculated: deg=0.274, bet=0.453, kcore=0.000, ci=0.274
+2026-04-15 22:38:32,437 | INFO     | cndp.scoring | Composite score computed for 5000 nodes.
+2026-04-15 22:38:40,062 | INFO     | cndp.greedy | Lazy Greedy (CELF) Optimisation Complete.
+  Theoretical Submodular Bounds: ≥ 63.2% (1-1/e) of Optimal Target
+  Nodes Removed: 10
+  Marginal-gain Recomputations Executed: 456
+  Naive Recalculations Skipped: 4499 (Computational Savings: 90.8%)
+2026-04-15 22:38:40,066 | INFO     | __main__ |     f_reduction=0.40%  lcc_reduction=0.20%  R=0.0020  time=7.65s
+2026-04-15 22:38:40,066 | INFO     | __main__ |   Method: lazy_greedy_no_bet
+2026-04-15 22:38:40,078 | INFO     | cndp.scoring | Composite score computed for 5000 nodes.
+2026-04-15 22:38:48,138 | INFO     | cndp.greedy | Lazy Greedy (CELF) Optimisation Complete.
+  Theoretical Submodular Bounds: ≥ 63.2% (1-1/e) of Optimal Target
+  Nodes Removed: 10
+  Marginal-gain Recomputations Executed: 456
+  Naive Recalculations Skipped: 4499 (Computational Savings: 90.8%)
+2026-04-15 22:38:48,148 | INFO     | __main__ |     f_reduction=0.40%  lcc_reduction=0.20%  R=0.0020  time=8.08s
+2026-04-15 22:38:48,148 | INFO     | __main__ |   Method: lazy_greedy_no_ci
+2026-04-15 22:38:48,161 | INFO     | cndp.scoring | Composite score computed for 5000 nodes.
+2026-04-15 22:38:55,931 | INFO     | cndp.greedy | Lazy Greedy (CELF) Optimisation Complete.
+  Theoretical Submodular Bounds: ≥ 63.2% (1-1/e) of Optimal Target
+  Nodes Removed: 10
+  Marginal-gain Recomputations Executed: 456
+  Naive Recalculations Skipped: 4499 (Computational Savings: 90.8%)
+2026-04-15 22:38:55,936 | INFO     | __main__ |     f_reduction=0.40%  lcc_reduction=0.20%  R=0.0020  time=7.78s
+2026-04-15 22:38:55,936 | INFO     | __main__ |   Method: degree
+2026-04-15 22:38:56,155 | INFO     | __main__ |     f_reduction=0.44%  lcc_reduction=0.22%  R=0.0020  time=0.22s
+2026-04-15 22:38:56,155 | INFO     | __main__ |   Method: adaptive_degree
+2026-04-15 22:38:56,366 | INFO     | __main__ |     f_reduction=0.44%  lcc_reduction=0.22%  R=0.0020  time=0.21s
+2026-04-15 22:38:56,366 | INFO     | __main__ |   Method: betweenness
+2026-04-15 22:38:56,581 | INFO     | __main__ |     f_reduction=0.44%  lcc_reduction=0.22%  R=0.0020  time=0.21s
+2026-04-15 22:38:56,581 | INFO     | __main__ |   Method: adaptive_betweenness
+2026-04-15 22:39:46,087 | INFO     | __main__ |     f_reduction=0.44%  lcc_reduction=0.22%  R=0.0020  time=49.50s
+2026-04-15 22:39:46,088 | INFO     | __main__ |   Method: random
+2026-04-15 22:39:46,296 | INFO     | __main__ |     f_reduction=0.40%  lcc_reduction=0.20%  R=0.0020  time=0.20s
+2026-04-15 22:39:48,475 | INFO     | __main__ |     [Stat] lazy_greedy vs Degree p-value = 0.0000e+00
+2026-04-15 22:39:48,475 | INFO     | __main__ |     [Stat] lazy_greedy_no_bet vs Degree p-value = 0.0000e+00
+2026-04-15 22:39:48,476 | INFO     | __main__ |     [Stat] lazy_greedy_no_ci vs Degree p-value = 0.0000e+00
+2026-04-15 22:39:48,477 | INFO     | __main__ |     [Stat] adaptive_degree vs Degree p-value = nan
+2026-04-15 22:39:48,478 | INFO     | __main__ |     [Stat] betweenness vs Degree p-value = 3.7390e-01
+2026-04-15 22:39:48,479 | INFO     | __main__ |     [Stat] adaptive_betweenness vs Degree p-value = 0.0000e+00
+2026-04-15 22:39:48,480 | INFO     | __main__ |     [Stat] random vs Degree p-value = 0.0000e+00
+2026-04-15 22:39:48,481 | INFO     | __main__ | Results saved → /Users/abdurrahumanj/Developer/College/adv_graph/experiments/../results/logs/ba_n5000_k10_results.json
+2026-04-15 22:39:48,636 | INFO     | __main__ | Plot saved → /Users/abdurrahumanj/Developer/College/adv_graph/experiments/../results/plots/ba_n5000_k10_connectivity.png
+2026-04-15 22:39:48,733 | INFO     | __main__ | Plot saved → /Users/abdurrahumanj/Developer/College/adv_graph/experiments/../results/plots/ba_n5000_k10_lcc.png
+2026-04-15 22:56:08,732 | INFO     | __main__ | Loading dataset: ba {'n': 5000, 'm': 3}
+2026-04-15 22:56:08,733 | INFO     | cndp.graph | Generating BA graph: n=5000, m=3
+2026-04-15 22:56:08,751 | INFO     | cndp.graph | BA graph built in 0.02s — 5000 nodes, 14991 edges
+2026-04-15 22:56:08,751 | INFO     | __main__ | Graph: 5000 nodes, 14991 edges
+2026-04-15 22:56:08,751 | INFO     | __main__ | === Run 1/5 ===
+2026-04-15 22:56:08,751 | INFO     | __main__ |   Computing centralities …
+2026-04-15 22:56:08,751 | INFO     | cndp.centrality | Computing degree centrality …
+2026-04-15 22:56:08,751 | INFO     | cndp.centrality | Computing approx betweenness (k=200) …
+2026-04-15 22:56:09,883 | INFO     | cndp.centrality | Computing k-core score …
+2026-04-15 22:56:09,888 | INFO     | cndp.centrality | Computing connectivity impact …
+2026-04-15 22:56:09,896 | INFO     | __main__ |   Method: lazy_greedy
+2026-04-15 22:56:09,911 | INFO     | cndp.scoring | Entropy weights calculated: deg=0.272, bet=0.456, kcore=0.000, ci=0.272
+2026-04-15 22:56:09,927 | INFO     | cndp.scoring | Composite score computed for 5000 nodes.
+2026-04-15 22:56:16,795 | INFO     | cndp.greedy | Lazy Greedy (CELF) Optimisation Complete.
+  Theoretical Submodular Bounds: ≥ 63.2% (1-1/e) of Optimal Target
+  Nodes Removed: 10
+  Marginal-gain Recomputations Executed: 375
+  Naive Recalculations Skipped: 4580 (Computational Savings: 92.4%)
+2026-04-15 22:56:16,799 | INFO     | __main__ |     f_reduction=0.52%  lcc_reduction=0.26%  R=0.0020  time=6.90s
+2026-04-15 22:56:16,799 | INFO     | __main__ |   Method: lazy_greedy_no_bet
+2026-04-15 22:56:16,812 | INFO     | cndp.scoring | Composite score computed for 5000 nodes.
+2026-04-15 22:56:23,149 | INFO     | cndp.greedy | Lazy Greedy (CELF) Optimisation Complete.
+  Theoretical Submodular Bounds: ≥ 63.2% (1-1/e) of Optimal Target
+  Nodes Removed: 10
+  Marginal-gain Recomputations Executed: 371
+  Naive Recalculations Skipped: 4584 (Computational Savings: 92.5%)
+2026-04-15 22:56:23,153 | INFO     | __main__ |     f_reduction=0.52%  lcc_reduction=0.26%  R=0.0020  time=6.35s
+2026-04-15 22:56:23,153 | INFO     | __main__ |   Method: lazy_greedy_no_ci
+2026-04-15 22:56:23,167 | INFO     | cndp.scoring | Composite score computed for 5000 nodes.
+2026-04-15 22:56:29,566 | INFO     | cndp.greedy | Lazy Greedy (CELF) Optimisation Complete.
+  Theoretical Submodular Bounds: ≥ 63.2% (1-1/e) of Optimal Target
+  Nodes Removed: 10
+  Marginal-gain Recomputations Executed: 377
+  Naive Recalculations Skipped: 4578 (Computational Savings: 92.4%)
+2026-04-15 22:56:29,570 | INFO     | __main__ |     f_reduction=0.52%  lcc_reduction=0.26%  R=0.0020  time=6.41s
+2026-04-15 22:56:29,570 | INFO     | __main__ |   Method: degree
+2026-04-15 22:56:29,770 | INFO     | __main__ |     f_reduction=0.44%  lcc_reduction=0.22%  R=0.0020  time=0.20s
+2026-04-15 22:56:29,771 | INFO     | __main__ |   Method: adaptive_degree
+2026-04-15 22:56:29,983 | INFO     | __main__ |     f_reduction=0.44%  lcc_reduction=0.22%  R=0.0020  time=0.21s
+2026-04-15 22:56:29,983 | INFO     | __main__ |   Method: betweenness
+2026-04-15 22:56:30,199 | INFO     | __main__ |     f_reduction=0.44%  lcc_reduction=0.22%  R=0.0020  time=0.21s
+2026-04-15 22:56:30,199 | INFO     | __main__ |   Method: adaptive_betweenness
+2026-04-15 23:20:31,158 | INFO     | __main__ | Loading dataset: ba {'n': 5000, 'm': 3}
+2026-04-15 23:20:31,158 | INFO     | cndp.graph | Generating BA graph: n=5000, m=3
+2026-04-15 23:20:31,177 | INFO     | cndp.graph | BA graph built in 0.02s — 5000 nodes, 14991 edges
+2026-04-15 23:20:31,177 | INFO     | __main__ | Graph: 5000 nodes, 14991 edges
+2026-04-15 23:20:31,177 | INFO     | __main__ | === Run 1/5 ===
+2026-04-15 23:20:31,177 | INFO     | __main__ |   Computing centralities …
+2026-04-15 23:20:31,178 | INFO     | cndp.centrality | Computing degree centrality …
+2026-04-15 23:20:31,178 | INFO     | cndp.centrality | Computing approx betweenness (k=200) …
+2026-04-15 23:20:32,317 | INFO     | cndp.centrality | Computing k-core score …
+2026-04-15 23:20:32,322 | INFO     | cndp.centrality | Computing connectivity impact …
+2026-04-15 23:20:32,329 | INFO     | __main__ |   Method: lazy_greedy
+2026-04-15 23:20:32,344 | INFO     | cndp.scoring | Entropy weights calculated: deg=0.272, bet=0.456, kcore=0.000, ci=0.272
+2026-04-15 23:20:32,360 | INFO     | cndp.scoring | Composite score computed for 5000 nodes.
+2026-04-15 23:20:39,230 | INFO     | cndp.greedy | Lazy Greedy (CELF) Optimisation Complete.
+  Theoretical Submodular Bounds: ≥ 63.2% (1-1/e) of Optimal Target
+  Nodes Removed: 10
+  Marginal-gain Recomputations Executed: 375
+  Naive Recalculations Skipped: 4580 (Computational Savings: 92.4%)
+2026-04-15 23:20:39,234 | INFO     | __main__ |     f_reduction=0.52%  lcc_reduction=0.26%  R=0.0020  time=6.90s
+2026-04-15 23:20:39,235 | INFO     | __main__ |   Method: lazy_greedy_no_bet
+2026-04-15 23:20:39,248 | INFO     | cndp.scoring | Composite score computed for 5000 nodes.
+2026-04-15 23:20:45,587 | INFO     | cndp.greedy | Lazy Greedy (CELF) Optimisation Complete.
+  Theoretical Submodular Bounds: ≥ 63.2% (1-1/e) of Optimal Target
+  Nodes Removed: 10
+  Marginal-gain Recomputations Executed: 371
+  Naive Recalculations Skipped: 4584 (Computational Savings: 92.5%)
+2026-04-15 23:20:45,591 | INFO     | __main__ |     f_reduction=0.52%  lcc_reduction=0.26%  R=0.0020  time=6.35s
+2026-04-15 23:20:45,591 | INFO     | __main__ |   Method: lazy_greedy_no_ci
+2026-04-15 23:20:45,604 | INFO     | cndp.scoring | Composite score computed for 5000 nodes.
+2026-04-15 23:20:51,980 | INFO     | cndp.greedy | Lazy Greedy (CELF) Optimisation Complete.
+  Theoretical Submodular Bounds: ≥ 63.2% (1-1/e) of Optimal Target
+  Nodes Removed: 10
+  Marginal-gain Recomputations Executed: 377
+  Naive Recalculations Skipped: 4578 (Computational Savings: 92.4%)
+2026-04-15 23:20:51,985 | INFO     | __main__ |     f_reduction=0.52%  lcc_reduction=0.26%  R=0.0020  time=6.39s
+2026-04-15 23:20:51,985 | INFO     | __main__ |   Method: degree
+2026-04-15 23:20:52,185 | INFO     | __main__ |     f_reduction=0.44%  lcc_reduction=0.22%  R=0.0020  time=0.20s
+2026-04-15 23:20:52,185 | INFO     | __main__ |   Method: adaptive_degree
+2026-04-15 23:20:52,396 | INFO     | __main__ |     f_reduction=0.44%  lcc_reduction=0.22%  R=0.0020  time=0.21s
+2026-04-15 23:20:52,396 | INFO     | __main__ |   Method: betweenness
+2026-04-15 23:20:52,613 | INFO     | __main__ |     f_reduction=0.44%  lcc_reduction=0.22%  R=0.0020  time=0.21s
+2026-04-15 23:20:52,613 | INFO     | __main__ |   Method: adaptive_betweenness
+2026-04-15 23:21:42,193 | INFO     | __main__ |     f_reduction=0.44%  lcc_reduction=0.22%  R=0.0020  time=49.58s
+2026-04-15 23:21:42,194 | INFO     | __main__ |   Method: random
+2026-04-15 23:21:42,431 | INFO     | __main__ |     f_reduction=0.40%  lcc_reduction=0.20%  R=0.0020  time=0.23s
+2026-04-15 23:21:42,431 | INFO     | __main__ | === Run 2/5 ===
+2026-04-15 23:21:42,431 | INFO     | __main__ |   Computing centralities …
+2026-04-15 23:21:42,431 | INFO     | cndp.centrality | Computing degree centrality …
+2026-04-15 23:21:42,432 | INFO     | cndp.centrality | Computing approx betweenness (k=200) …
+2026-04-15 23:21:43,709 | INFO     | cndp.centrality | Computing k-core score …
+2026-04-15 23:21:43,714 | INFO     | cndp.centrality | Computing connectivity impact …
+2026-04-15 23:21:43,722 | INFO     | __main__ |   Method: lazy_greedy
+2026-04-15 23:21:43,735 | INFO     | cndp.scoring | Entropy weights calculated: deg=0.270, bet=0.459, kcore=0.000, ci=0.270
+2026-04-15 23:21:43,748 | INFO     | cndp.scoring | Composite score computed for 5000 nodes.
+2026-04-15 23:21:50,616 | INFO     | cndp.greedy | Lazy Greedy (CELF) Optimisation Complete.
+  Theoretical Submodular Bounds: ≥ 63.2% (1-1/e) of Optimal Target
+  Nodes Removed: 10
+  Marginal-gain Recomputations Executed: 371
+  Naive Recalculations Skipped: 4584 (Computational Savings: 92.5%)
+2026-04-15 23:21:50,621 | INFO     | __main__ |     f_reduction=0.52%  lcc_reduction=0.26%  R=0.0020  time=6.90s
+2026-04-15 23:21:50,621 | INFO     | __main__ |   Method: lazy_greedy_no_bet
+2026-04-15 23:21:50,632 | INFO     | cndp.scoring | Composite score computed for 5000 nodes.
+2026-04-15 23:21:56,884 | INFO     | cndp.greedy | Lazy Greedy (CELF) Optimisation Complete.
+  Theoretical Submodular Bounds: ≥ 63.2% (1-1/e) of Optimal Target
+  Nodes Removed: 10
+  Marginal-gain Recomputations Executed: 371
+  Naive Recalculations Skipped: 4584 (Computational Savings: 92.5%)
+2026-04-15 23:21:56,888 | INFO     | __main__ |     f_reduction=0.52%  lcc_reduction=0.26%  R=0.0020  time=6.26s
+2026-04-15 23:21:56,888 | INFO     | __main__ |   Method: lazy_greedy_no_ci
+2026-04-15 23:21:56,900 | INFO     | cndp.scoring | Composite score computed for 5000 nodes.
+2026-04-15 23:22:03,199 | INFO     | cndp.greedy | Lazy Greedy (CELF) Optimisation Complete.
+  Theoretical Submodular Bounds: ≥ 63.2% (1-1/e) of Optimal Target
+  Nodes Removed: 10
+  Marginal-gain Recomputations Executed: 372
+  Naive Recalculations Skipped: 4583 (Computational Savings: 92.5%)
+2026-04-15 23:22:03,203 | INFO     | __main__ |     f_reduction=0.52%  lcc_reduction=0.26%  R=0.0020  time=6.31s
+2026-04-15 23:22:03,203 | INFO     | __main__ |   Method: degree
+2026-04-15 23:22:03,402 | INFO     | __main__ |     f_reduction=0.44%  lcc_reduction=0.22%  R=0.0020  time=0.20s
+2026-04-15 23:22:03,402 | INFO     | __main__ |   Method: adaptive_degree
+2026-04-15 23:22:03,612 | INFO     | __main__ |     f_reduction=0.44%  lcc_reduction=0.22%  R=0.0020  time=0.21s
+2026-04-15 23:22:03,612 | INFO     | __main__ |   Method: betweenness
+2026-04-15 23:22:03,827 | INFO     | __main__ |     f_reduction=0.44%  lcc_reduction=0.22%  R=0.0020  time=0.21s
+2026-04-15 23:22:03,827 | INFO     | __main__ |   Method: adaptive_betweenness
+2026-04-15 23:22:53,785 | INFO     | __main__ |     f_reduction=0.44%  lcc_reduction=0.22%  R=0.0020  time=49.95s
+2026-04-15 23:22:53,786 | INFO     | __main__ |   Method: random
+2026-04-15 23:22:53,993 | INFO     | __main__ |     f_reduction=0.40%  lcc_reduction=0.20%  R=0.0020  time=0.20s
+2026-04-15 23:22:53,993 | INFO     | __main__ | === Run 3/5 ===
+2026-04-15 23:22:53,993 | INFO     | __main__ |   Computing centralities …
+2026-04-15 23:22:53,993 | INFO     | cndp.centrality | Computing degree centrality …
+2026-04-15 23:22:53,994 | INFO     | cndp.centrality | Computing approx betweenness (k=200) …
+2026-04-15 23:22:55,136 | INFO     | cndp.centrality | Computing k-core score …
+2026-04-15 23:22:55,141 | INFO     | cndp.centrality | Computing connectivity impact …
+2026-04-15 23:22:55,148 | INFO     | __main__ |   Method: lazy_greedy
+2026-04-15 23:22:55,161 | INFO     | cndp.scoring | Entropy weights calculated: deg=0.270, bet=0.460, kcore=0.000, ci=0.270
+2026-04-15 23:22:55,173 | INFO     | cndp.scoring | Composite score computed for 5000 nodes.
+2026-04-15 23:23:02,260 | INFO     | cndp.greedy | Lazy Greedy (CELF) Optimisation Complete.
+  Theoretical Submodular Bounds: ≥ 63.2% (1-1/e) of Optimal Target
+  Nodes Removed: 10
+  Marginal-gain Recomputations Executed: 382
+  Naive Recalculations Skipped: 4573 (Computational Savings: 92.3%)
+2026-04-15 23:23:02,265 | INFO     | __main__ |     f_reduction=0.52%  lcc_reduction=0.26%  R=0.0020  time=7.11s
+2026-04-15 23:23:02,265 | INFO     | __main__ |   Method: lazy_greedy_no_bet
+2026-04-15 23:23:02,278 | INFO     | cndp.scoring | Composite score computed for 5000 nodes.
+2026-04-15 23:23:08,561 | INFO     | cndp.greedy | Lazy Greedy (CELF) Optimisation Complete.
+  Theoretical Submodular Bounds: ≥ 63.2% (1-1/e) of Optimal Target
+  Nodes Removed: 10
+  Marginal-gain Recomputations Executed: 371
+  Naive Recalculations Skipped: 4584 (Computational Savings: 92.5%)
+2026-04-15 23:23:08,566 | INFO     | __main__ |     f_reduction=0.52%  lcc_reduction=0.26%  R=0.0020  time=6.30s
+2026-04-15 23:23:08,566 | INFO     | __main__ |   Method: lazy_greedy_no_ci
+2026-04-15 23:23:08,578 | INFO     | cndp.scoring | Composite score computed for 5000 nodes.
+2026-04-15 23:23:15,133 | INFO     | cndp.greedy | Lazy Greedy (CELF) Optimisation Complete.
+  Theoretical Submodular Bounds: ≥ 63.2% (1-1/e) of Optimal Target
+  Nodes Removed: 10
+  Marginal-gain Recomputations Executed: 386
+  Naive Recalculations Skipped: 4569 (Computational Savings: 92.2%)
+2026-04-15 23:23:15,137 | INFO     | __main__ |     f_reduction=0.52%  lcc_reduction=0.26%  R=0.0020  time=6.57s
+2026-04-15 23:23:15,137 | INFO     | __main__ |   Method: degree
+2026-04-15 23:23:15,339 | INFO     | __main__ |     f_reduction=0.44%  lcc_reduction=0.22%  R=0.0020  time=0.20s
+2026-04-15 23:23:15,339 | INFO     | __main__ |   Method: adaptive_degree
+2026-04-15 23:23:15,550 | INFO     | __main__ |     f_reduction=0.44%  lcc_reduction=0.22%  R=0.0020  time=0.21s
+2026-04-15 23:23:15,550 | INFO     | __main__ |   Method: betweenness
+2026-04-15 23:23:15,767 | INFO     | __main__ |     f_reduction=0.44%  lcc_reduction=0.22%  R=0.0020  time=0.21s
+2026-04-15 23:23:15,767 | INFO     | __main__ |   Method: adaptive_betweenness
+2026-04-15 23:24:05,388 | INFO     | __main__ |     f_reduction=0.44%  lcc_reduction=0.22%  R=0.0020  time=49.62s
+2026-04-15 23:24:05,389 | INFO     | __main__ |   Method: random
+2026-04-15 23:24:05,595 | INFO     | __main__ |     f_reduction=0.40%  lcc_reduction=0.20%  R=0.0020  time=0.20s
+2026-04-15 23:24:05,595 | INFO     | __main__ | === Run 4/5 ===
+2026-04-15 23:24:05,595 | INFO     | __main__ |   Computing centralities …
+2026-04-15 23:24:05,595 | INFO     | cndp.centrality | Computing degree centrality …
+2026-04-15 23:24:05,596 | INFO     | cndp.centrality | Computing approx betweenness (k=200) …
+2026-04-15 23:24:06,732 | INFO     | cndp.centrality | Computing k-core score …
+2026-04-15 23:24:06,737 | INFO     | cndp.centrality | Computing connectivity impact …
+2026-04-15 23:24:06,745 | INFO     | __main__ |   Method: lazy_greedy
+2026-04-15 23:24:06,759 | INFO     | cndp.scoring | Entropy weights calculated: deg=0.271, bet=0.457, kcore=0.000, ci=0.271
+2026-04-15 23:24:06,771 | INFO     | cndp.scoring | Composite score computed for 5000 nodes.
+2026-04-15 23:24:13,764 | INFO     | cndp.greedy | Lazy Greedy (CELF) Optimisation Complete.
+  Theoretical Submodular Bounds: ≥ 63.2% (1-1/e) of Optimal Target
+  Nodes Removed: 10
+  Marginal-gain Recomputations Executed: 380
+  Naive Recalculations Skipped: 4575 (Computational Savings: 92.3%)
+2026-04-15 23:24:13,768 | INFO     | __main__ |     f_reduction=0.52%  lcc_reduction=0.26%  R=0.0020  time=7.02s
+2026-04-15 23:24:13,768 | INFO     | __main__ |   Method: lazy_greedy_no_bet
+2026-04-15 23:24:13,780 | INFO     | cndp.scoring | Composite score computed for 5000 nodes.
+2026-04-15 23:24:20,121 | INFO     | cndp.greedy | Lazy Greedy (CELF) Optimisation Complete.
+  Theoretical Submodular Bounds: ≥ 63.2% (1-1/e) of Optimal Target
+  Nodes Removed: 10
+  Marginal-gain Recomputations Executed: 371
+  Naive Recalculations Skipped: 4584 (Computational Savings: 92.5%)
+2026-04-15 23:24:20,126 | INFO     | __main__ |     f_reduction=0.52%  lcc_reduction=0.26%  R=0.0020  time=6.35s
+2026-04-15 23:24:20,126 | INFO     | __main__ |   Method: lazy_greedy_no_ci
+2026-04-15 23:24:20,138 | INFO     | cndp.scoring | Composite score computed for 5000 nodes.
+2026-04-15 23:24:26,732 | INFO     | cndp.greedy | Lazy Greedy (CELF) Optimisation Complete.
+  Theoretical Submodular Bounds: ≥ 63.2% (1-1/e) of Optimal Target
+  Nodes Removed: 10
+  Marginal-gain Recomputations Executed: 383
+  Naive Recalculations Skipped: 4572 (Computational Savings: 92.3%)
+2026-04-15 23:24:26,736 | INFO     | __main__ |     f_reduction=0.52%  lcc_reduction=0.26%  R=0.0020  time=6.61s
+2026-04-15 23:24:26,736 | INFO     | __main__ |   Method: degree
+2026-04-15 23:24:26,937 | INFO     | __main__ |     f_reduction=0.44%  lcc_reduction=0.22%  R=0.0020  time=0.20s
+2026-04-15 23:24:26,937 | INFO     | __main__ |   Method: adaptive_degree
+2026-04-15 23:24:27,152 | INFO     | __main__ |     f_reduction=0.44%  lcc_reduction=0.22%  R=0.0020  time=0.21s
+2026-04-15 23:24:27,152 | INFO     | __main__ |   Method: betweenness
+2026-04-15 23:24:27,372 | INFO     | __main__ |     f_reduction=0.44%  lcc_reduction=0.22%  R=0.0020  time=0.22s
+2026-04-15 23:24:27,372 | INFO     | __main__ |   Method: adaptive_betweenness
+2026-04-15 23:25:17,566 | INFO     | __main__ |     f_reduction=0.44%  lcc_reduction=0.22%  R=0.0020  time=50.19s
+2026-04-15 23:25:17,567 | INFO     | __main__ |   Method: random
+2026-04-15 23:25:17,773 | INFO     | __main__ |     f_reduction=0.40%  lcc_reduction=0.20%  R=0.0020  time=0.20s
+2026-04-15 23:25:17,773 | INFO     | __main__ | === Run 5/5 ===
+2026-04-15 23:25:17,773 | INFO     | __main__ |   Computing centralities …
+2026-04-15 23:25:17,773 | INFO     | cndp.centrality | Computing degree centrality …
+2026-04-15 23:25:17,774 | INFO     | cndp.centrality | Computing approx betweenness (k=200) …
+2026-04-15 23:25:18,915 | INFO     | cndp.centrality | Computing k-core score …
+2026-04-15 23:25:18,919 | INFO     | cndp.centrality | Computing connectivity impact …
+2026-04-15 23:25:18,927 | INFO     | __main__ |   Method: lazy_greedy
+2026-04-15 23:25:18,940 | INFO     | cndp.scoring | Entropy weights calculated: deg=0.274, bet=0.453, kcore=0.000, ci=0.274
+2026-04-15 23:25:18,952 | INFO     | cndp.scoring | Composite score computed for 5000 nodes.
+2026-04-15 23:25:25,747 | INFO     | cndp.greedy | Lazy Greedy (CELF) Optimisation Complete.
+  Theoretical Submodular Bounds: ≥ 63.2% (1-1/e) of Optimal Target
+  Nodes Removed: 10
+  Marginal-gain Recomputations Executed: 368
+  Naive Recalculations Skipped: 4587 (Computational Savings: 92.6%)
+2026-04-15 23:25:25,751 | INFO     | __main__ |     f_reduction=0.52%  lcc_reduction=0.26%  R=0.0020  time=6.82s
+2026-04-15 23:25:25,751 | INFO     | __main__ |   Method: lazy_greedy_no_bet
+2026-04-15 23:25:25,764 | INFO     | cndp.scoring | Composite score computed for 5000 nodes.
+2026-04-15 23:25:32,140 | INFO     | cndp.greedy | Lazy Greedy (CELF) Optimisation Complete.
+  Theoretical Submodular Bounds: ≥ 63.2% (1-1/e) of Optimal Target
+  Nodes Removed: 10
+  Marginal-gain Recomputations Executed: 371
+  Naive Recalculations Skipped: 4584 (Computational Savings: 92.5%)
+2026-04-15 23:25:32,145 | INFO     | __main__ |     f_reduction=0.52%  lcc_reduction=0.26%  R=0.0020  time=6.39s
+2026-04-15 23:25:32,145 | INFO     | __main__ |   Method: lazy_greedy_no_ci
+2026-04-15 23:25:32,158 | INFO     | cndp.scoring | Composite score computed for 5000 nodes.
+2026-04-15 23:25:38,454 | INFO     | cndp.greedy | Lazy Greedy (CELF) Optimisation Complete.
+  Theoretical Submodular Bounds: ≥ 63.2% (1-1/e) of Optimal Target
+  Nodes Removed: 10
+  Marginal-gain Recomputations Executed: 368
+  Naive Recalculations Skipped: 4587 (Computational Savings: 92.6%)
+2026-04-15 23:25:38,458 | INFO     | __main__ |     f_reduction=0.52%  lcc_reduction=0.26%  R=0.0020  time=6.31s
+2026-04-15 23:25:38,458 | INFO     | __main__ |   Method: degree
+2026-04-15 23:25:38,657 | INFO     | __main__ |     f_reduction=0.44%  lcc_reduction=0.22%  R=0.0020  time=0.20s
+2026-04-15 23:25:38,658 | INFO     | __main__ |   Method: adaptive_degree
+2026-04-15 23:25:38,868 | INFO     | __main__ |     f_reduction=0.44%  lcc_reduction=0.22%  R=0.0020  time=0.21s
+2026-04-15 23:25:38,869 | INFO     | __main__ |   Method: betweenness
+2026-04-15 23:25:39,084 | INFO     | __main__ |     f_reduction=0.44%  lcc_reduction=0.22%  R=0.0020  time=0.21s
+2026-04-15 23:25:39,084 | INFO     | __main__ |   Method: adaptive_betweenness
+2026-04-15 23:26:29,223 | INFO     | __main__ |     f_reduction=0.44%  lcc_reduction=0.22%  R=0.0020  time=50.13s
+2026-04-15 23:26:29,224 | INFO     | __main__ |   Method: random
+2026-04-15 23:26:29,427 | INFO     | __main__ |     f_reduction=0.40%  lcc_reduction=0.20%  R=0.0020  time=0.20s
+2026-04-15 23:26:30,141 | INFO     | __main__ |     [Stat] lazy_greedy vs Degree p-value = 0.0000e+00
+2026-04-15 23:26:30,142 | INFO     | __main__ |     [Stat] lazy_greedy_no_bet vs Degree p-value = 0.0000e+00
+2026-04-15 23:26:30,142 | INFO     | __main__ |     [Stat] lazy_greedy_no_ci vs Degree p-value = 1.5953e-06
+2026-04-15 23:26:30,143 | INFO     | __main__ |     [Stat] adaptive_degree vs Degree p-value = nan
+2026-04-15 23:26:30,143 | INFO     | __main__ |     [Stat] betweenness vs Degree p-value = 3.7390e-01
+2026-04-15 23:26:30,143 | INFO     | __main__ |     [Stat] adaptive_betweenness vs Degree p-value = 0.0000e+00
+2026-04-15 23:26:30,144 | INFO     | __main__ |     [Stat] random vs Degree p-value = 0.0000e+00
+2026-04-15 23:26:30,145 | INFO     | __main__ | Results saved → /Users/abdurrahumanj/Developer/College/adv_graph/experiments/../results/logs/ba_n5000_k10_results.json
+2026-04-15 23:26:30,291 | INFO     | __main__ | Plot saved → /Users/abdurrahumanj/Developer/College/adv_graph/experiments/../results/plots/ba_n5000_k10_connectivity.png
+2026-04-15 23:26:30,392 | INFO     | __main__ | Plot saved → /Users/abdurrahumanj/Developer/College/adv_graph/experiments/../results/plots/ba_n5000_k10_lcc.png
+2026-04-15 23:37:25,899 | INFO     | __main__ | Loading dataset: ba {'n': 5000, 'm': 3}
+2026-04-15 23:37:25,899 | INFO     | cndp.graph | Generating BA graph: n=5000, m=3
+2026-04-15 23:37:25,918 | INFO     | cndp.graph | BA graph built in 0.02s — 5000 nodes, 14991 edges
+2026-04-15 23:37:25,918 | INFO     | __main__ | Graph: 5000 nodes, 14991 edges
+2026-04-15 23:37:25,918 | INFO     | __main__ | === Run 1/2 ===
+2026-04-15 23:37:25,918 | INFO     | __main__ |   Computing centralities …
+2026-04-15 23:37:25,918 | INFO     | cndp.centrality | Computing degree centrality …
+2026-04-15 23:37:25,918 | INFO     | cndp.centrality | Computing approx betweenness (k=200) …
+2026-04-15 23:37:27,066 | INFO     | cndp.centrality | Computing k-core score …
+2026-04-15 23:37:27,071 | INFO     | cndp.centrality | Computing connectivity impact …
+2026-04-15 23:37:27,078 | INFO     | __main__ |   Method: lazy_greedy
+2026-04-15 23:37:27,093 | INFO     | cndp.scoring | Entropy weights calculated: deg=0.272, bet=0.456, kcore=0.000, ci=0.272
+2026-04-15 23:37:27,110 | INFO     | cndp.scoring | Composite score computed for 5000 nodes.
+2026-04-15 23:38:09,140 | INFO     | cndp.greedy | Lazy Greedy (CELF) Optimisation Complete.
+  Theoretical Submodular Bounds: ≥ 63.2% (1-1/e) of Optimal Target
+  Nodes Removed: 150
+  Marginal-gain Recomputations Executed: 2658
+  Naive Recalculations Skipped: 61167 (Computational Savings: 95.8%)
+2026-04-15 23:38:09,146 | INFO     | __main__ |     f_reduction=7.92%  lcc_reduction=4.04%  R=0.0294  time=42.06s
+2026-04-15 23:38:09,146 | INFO     | __main__ |   Method: lazy_greedy_no_bet
+2026-04-15 23:38:09,160 | INFO     | cndp.scoring | Composite score computed for 5000 nodes.
+2026-04-15 23:38:50,774 | INFO     | cndp.greedy | Lazy Greedy (CELF) Optimisation Complete.
+  Theoretical Submodular Bounds: ≥ 63.2% (1-1/e) of Optimal Target
+  Nodes Removed: 150
+  Marginal-gain Recomputations Executed: 2652
+  Naive Recalculations Skipped: 61173 (Computational Savings: 95.8%)
+2026-04-15 23:38:50,778 | INFO     | __main__ |     f_reduction=7.88%  lcc_reduction=4.02%  R=0.0294  time=41.63s
+2026-04-15 23:38:50,778 | INFO     | __main__ |   Method: lazy_greedy_no_ci
+2026-04-15 23:38:50,791 | INFO     | cndp.scoring | Composite score computed for 5000 nodes.
+2026-04-15 23:39:31,886 | INFO     | cndp.greedy | Lazy Greedy (CELF) Optimisation Complete.
+  Theoretical Submodular Bounds: ≥ 63.2% (1-1/e) of Optimal Target
+  Nodes Removed: 150
+  Marginal-gain Recomputations Executed: 2585
+  Naive Recalculations Skipped: 61240 (Computational Savings: 95.9%)
+2026-04-15 23:39:31,896 | INFO     | __main__ |     f_reduction=7.99%  lcc_reduction=4.08%  R=0.0294  time=41.11s
+2026-04-15 23:39:31,897 | INFO     | __main__ |   Method: degree
+2026-04-15 23:39:34,643 | INFO     | __main__ |     f_reduction=7.88%  lcc_reduction=4.02%  R=0.0294  time=2.74s
+2026-04-15 23:39:34,643 | INFO     | __main__ |   Method: adaptive_degree
+2026-04-15 23:39:37,577 | INFO     | __main__ |     f_reduction=7.69%  lcc_reduction=3.92%  R=0.0294  time=2.93s
+2026-04-15 23:39:37,577 | INFO     | __main__ |   Method: betweenness
+2026-04-15 23:39:40,341 | INFO     | __main__ |     f_reduction=7.30%  lcc_reduction=3.72%  R=0.0295  time=2.76s
+2026-04-15 23:39:40,341 | INFO     | __main__ |   Method: adaptive_betweenness
+2026-04-15 23:51:03,739 | INFO     | __main__ |     f_reduction=7.61%  lcc_reduction=3.88%  R=0.0294  time=683.38s
+2026-04-15 23:51:03,743 | INFO     | __main__ |   Method: random
+2026-04-15 23:51:06,893 | INFO     | __main__ |     f_reduction=5.91%  lcc_reduction=3.00%  R=0.0295  time=3.15s
+2026-04-15 23:51:06,893 | INFO     | __main__ | === Run 2/2 ===
+2026-04-15 23:51:06,893 | INFO     | __main__ |   Computing centralities …
+2026-04-15 23:51:06,893 | INFO     | cndp.centrality | Computing degree centrality …
+2026-04-15 23:51:06,894 | INFO     | cndp.centrality | Computing approx betweenness (k=200) …
+2026-04-15 23:51:08,038 | INFO     | cndp.centrality | Computing k-core score …
+2026-04-15 23:51:08,043 | INFO     | cndp.centrality | Computing connectivity impact …
+2026-04-15 23:51:08,053 | INFO     | __main__ |   Method: lazy_greedy
+2026-04-15 23:51:08,065 | INFO     | cndp.scoring | Entropy weights calculated: deg=0.270, bet=0.459, kcore=0.000, ci=0.270
+2026-04-15 23:51:08,077 | INFO     | cndp.scoring | Composite score computed for 5000 nodes.
+2026-04-15 23:51:51,347 | INFO     | cndp.greedy | Lazy Greedy (CELF) Optimisation Complete.
+  Theoretical Submodular Bounds: ≥ 63.2% (1-1/e) of Optimal Target
+  Nodes Removed: 150
+  Marginal-gain Recomputations Executed: 2714
+  Naive Recalculations Skipped: 61111 (Computational Savings: 95.7%)
+2026-04-15 23:51:51,352 | INFO     | __main__ |     f_reduction=7.88%  lcc_reduction=4.02%  R=0.0294  time=43.30s
+2026-04-15 23:51:51,353 | INFO     | __main__ |   Method: lazy_greedy_no_bet
+2026-04-15 23:51:51,365 | INFO     | cndp.scoring | Composite score computed for 5000 nodes.
+2026-04-15 23:52:33,111 | INFO     | cndp.greedy | Lazy Greedy (CELF) Optimisation Complete.
+  Theoretical Submodular Bounds: ≥ 63.2% (1-1/e) of Optimal Target
+  Nodes Removed: 150
+  Marginal-gain Recomputations Executed: 2652
+  Naive Recalculations Skipped: 61173 (Computational Savings: 95.8%)
+2026-04-15 23:52:33,115 | INFO     | __main__ |     f_reduction=7.88%  lcc_reduction=4.02%  R=0.0294  time=41.74s
+2026-04-15 23:52:33,116 | INFO     | __main__ |   Method: lazy_greedy_no_ci
+2026-04-15 23:52:33,128 | INFO     | cndp.scoring | Composite score computed for 5000 nodes.
+2026-04-15 23:53:17,231 | INFO     | cndp.greedy | Lazy Greedy (CELF) Optimisation Complete.
+  Theoretical Submodular Bounds: ≥ 63.2% (1-1/e) of Optimal Target
+  Nodes Removed: 150
+  Marginal-gain Recomputations Executed: 2806
+  Naive Recalculations Skipped: 61019 (Computational Savings: 95.6%)
+2026-04-15 23:53:17,236 | INFO     | __main__ |     f_reduction=7.88%  lcc_reduction=4.02%  R=0.0294  time=44.11s
+2026-04-15 23:53:17,236 | INFO     | __main__ |   Method: degree
+2026-04-15 23:53:19,973 | INFO     | __main__ |     f_reduction=7.88%  lcc_reduction=4.02%  R=0.0294  time=2.73s
+2026-04-15 23:53:19,974 | INFO     | __main__ |   Method: adaptive_degree
+2026-04-15 23:53:22,921 | INFO     | __main__ |     f_reduction=7.69%  lcc_reduction=3.92%  R=0.0294  time=2.94s
+2026-04-15 23:53:22,921 | INFO     | __main__ |   Method: betweenness
+2026-04-15 23:53:25,692 | INFO     | __main__ |     f_reduction=7.23%  lcc_reduction=3.68%  R=0.0295  time=2.77s
+2026-04-15 23:53:25,692 | INFO     | __main__ |   Method: adaptive_betweenness
+2026-04-16 00:04:46,405 | INFO     | __main__ |     f_reduction=7.73%  lcc_reduction=3.94%  R=0.0294  time=680.70s
+2026-04-16 00:04:46,406 | INFO     | __main__ |   Method: random
+2026-04-16 00:04:49,561 | INFO     | __main__ |     f_reduction=5.91%  lcc_reduction=3.00%  R=0.0295  time=3.15s
+2026-04-16 00:04:50,446 | INFO     | __main__ |     [Stat] lazy_greedy vs Degree p-value = 2.8917e-02
+2026-04-16 00:04:50,447 | INFO     | __main__ |     [Stat] lazy_greedy_no_bet vs Degree p-value = 0.0000e+00
+2026-04-16 00:04:50,447 | INFO     | __main__ |     [Stat] lazy_greedy_no_ci vs Degree p-value = 8.9696e-02
+2026-04-16 00:04:50,448 | INFO     | __main__ |     [Stat] adaptive_degree vs Degree p-value = 0.0000e+00
+2026-04-16 00:04:50,448 | INFO     | __main__ |     [Stat] betweenness vs Degree p-value = 1.2104e-01
+2026-04-16 00:04:50,449 | INFO     | __main__ |     [Stat] adaptive_betweenness vs Degree p-value = 8.0465e-02
+2026-04-16 00:04:50,449 | INFO     | __main__ |     [Stat] random vs Degree p-value = 0.0000e+00
+2026-04-16 00:04:50,452 | INFO     | __main__ | Results saved → /Users/abdurrahumanj/Developer/College/adv_graph/experiments/../results/logs/ba_n5000_k150_results.json
+2026-04-16 00:04:50,607 | INFO     | __main__ | Plot saved → /Users/abdurrahumanj/Developer/College/adv_graph/experiments/../results/plots/ba_n5000_k150_connectivity.png
+2026-04-16 00:04:50,722 | INFO     | __main__ | Plot saved → /Users/abdurrahumanj/Developer/College/adv_graph/experiments/../results/plots/ba_n5000_k150_lcc.png

@@ -1,0 +1,15 @@
+# Requirements for Fast Critical Node Detection in Large-Scale Networks
+# Compatible with Google Colab Python 3.10+
+
+networkx>=3.0
+numpy>=1.24
+matplotlib>=3.7
+scipy>=1.10
+tqdm>=4.65
+pyyaml>=6.0
+
+# Optional — community detection (Louvain bonus)
+python-louvain>=0.16
+
+# Optional — GPU acceleration
+# torch>=2.0     # uncomment for PyTorch / CUDA support

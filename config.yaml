@@ -1,0 +1,41 @@
+# config.yaml — CNDP Experiment Configuration
+# All parameters can be overridden via CLI flags in each experiment script.
+
+graph:
+  default_type: "ba"            # ba | ws
+  ba_m: 3                       # BA edges per new node
+  ws_k: 6                       # WS ring lattice degree
+  ws_p: 0.1                     # WS rewiring probability
+
+scoring:
+  alpha: 0.20                   # weight for degree centrality
+  beta:  0.20                   # weight for approx betweenness
+  gamma: 0.20                   # weight for k-core
+  delta: 0.40                   # weight for connectivity impact
+  eps:   0.10                   # temporal velocity weight (temporal only)
+
+centrality:
+  betweenness_k: 200            # number of pivot samples for approx betweenness
+
+greedy:
+  sample_size: 2000             # candidate set size (None = all nodes)
+
+temporal:
+  ewma_alpha: 0.50              # EWMA smoothing factor α ∈ (0,1)
+  smoothness_lambda: 0.30       # penalty weight for node-set changes
+  rewire_frac: 0.05             # fraction of edges rewired per snapshot
+
+experiment:
+  k: 20                         # nodes to remove
+  n_runs: 5                     # repetitions (for mean ± std)
+  seed: 42
+  scalability_sizes:
+    - 10000
+    - 100000
+    - 500000
+    - 1000000
+
+logging:
+  level: INFO
+  log_dir: results/logs
+  plot_dir: results/plots
